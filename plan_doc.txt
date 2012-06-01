@@ -1,0 +1,32 @@
+Steps to completion:
+
+1) Nail down event train
+  include
+    - new users
+    - returning users
+    - enter location?
+      - will scan location
+      - Display points based on light database, 
+        distance from sea level, 
+        and distance from home town
+
+  creating a flowchart
+    - http://voices.yahoo.com/creating-flowchart-through-open-office-7961426.html
+
+3) Create location ranking system
+  - Light
+    http://www.ngdc.noaa.gov/dmsp/downloadV4composites.html
+  - Altitude Data 
+    http://dds.cr.usgs.gov/srtm/version2_1/SRTM30/
+    http://srtm.csi.cgiar.org/
+    http://eros.usgs.gov/#/Find_Data/Products_and_Data_Available/SRTM 
+  - GPS Babel
+    http://www.gpsbabel.org/
+
+2) Develop python or javascript to create environment
+  - See paper.js
+    probably use this for frontend, client
+
+3) Develop backend, secure database using SQLAlchemy
+  - need to investigate secure database models
+  - database will need to keep track of who is where

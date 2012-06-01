@@ -1,0 +1,21 @@
+Steps to completion:
+
+1) Nail down event train
+  include
+    - new users
+    - returning users
+    - enter location?
+      - will scan location
+      - Display points based on light database, 
+        distance from sea level, 
+        and distance from home town
+
+  creating a flowchart
+    - http://voices.yahoo.com/creating-flowchart-through-open-office-7961426.html
+
+2) Develop python or javascript to create environment
+  - See paper.js
+    probably use this for frontend, client
+
+3) Develop backend, secure database using SQLAlchemy
+  - need to investigate secure database models
